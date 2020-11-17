@@ -9,6 +9,16 @@
   background: linen;
 }
 
+.textwrap {
+  float:left;
+}
+
+.textsize {
+  color:black;
+  line-height: 2;
+  font-size: large;
+}
+
 .box_set{
   position:relative;
 }
@@ -22,7 +32,7 @@
   width: 775px;
   height: 570px;
   margin: 48px;
-  padding:30px;
+  padding:10px;
   background: white;
 }
 
