@@ -36,6 +36,19 @@
   width: 60%;
 }
 
+.comparison-box {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:xx-large;
+  font-weight: bolder;
+  color:blue;
+  background:white;
+  padding:10px;
+  height:625px;
+  width: 1000px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 .box_set{
   position:relative;
@@ -76,4 +89,9 @@
 .column {
   flex: 50%;
   padding: 5px;
+}
+
+.ccolumn {
+  flex:60%;
+  padding:0px;
 }
