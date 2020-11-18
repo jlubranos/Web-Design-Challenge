@@ -9,6 +9,10 @@
   background: linen;
 }
 
+.textblack {
+  color:black;
+}
+
 .textwrap {
   float:left;
 }
@@ -74,6 +78,7 @@
 
 .box2 {
   width:500px;
+  height:500px;
   right:50px;
   padding:10px;
 }
@@ -87,11 +92,13 @@
 }
 
 .column {
-  flex: 50%;
+  flex:50%;
   padding: 5px;
 }
 
-.ccolumn {
-  flex:60%;
-  padding:0px;
+.hr-attributes {
+  height:1px;
+  border-width:0;
+  color:black;
+  background-color:black;
 }
