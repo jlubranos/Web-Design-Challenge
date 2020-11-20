@@ -14,7 +14,7 @@
 }
 
 .textwrap {
-  float:left;
+  float: left;
 }
 
 .textsize {
@@ -47,9 +47,9 @@
   color:blue;
   background:white;
   padding:10px;
-  height:625px;
-  width: 1000px;
-  margin-top:20px;
+  height:65%;
+  width:65%;
+  margin-top:10px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -64,8 +64,8 @@
   font-weight: bolder;
   color:blue;
   position:absolute;
-  width: 775px;
-  height: 570px;
+  width:775px;
+  height:570px;
   margin: 48px;
   background: white;
 }
@@ -78,12 +78,13 @@
 
 .box2 {
   width:500px;
-  height:500px;
+  height:auto;
   right:50px;
   padding:10px;
 }
 
-.img-container {
+.container {
+  display:flex;
   object-position: center;
 }
 
@@ -92,7 +93,7 @@
 }
 
 .column {
-  flex:50%;
+  flex:100%;
   padding: 5px;
 }
 
@@ -102,3 +103,93 @@
   color:black;
   background-color:black;
 }
+
+@media (max-width:1450px) {
+
+  .boxattributes{
+    height:auto;
+  }
+
+  .box-set {
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  .box {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    background:white;
+  }
+
+.box1 {
+    left:unset;
+    margin-right:auto;
+    margin-left:auto;
+    justify-content:center;
+    background:white;
+  }
+
+
+ .box2 {
+    right:unset;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+  .column {
+    flex:25%
+  }
+
+  .row {
+    flex-direction:row;
+  }
+
+  .container {
+    display:flex;
+  }
+}
+
+@media (max-width: 785px) {
+  .navbar-light .navbar-brand a{
+    float: none;
+    width: 100%;
+  }
+
+  .center{ 
+    width:90%;
+  }
+
+  .comparison-box {
+    margin:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
+    width:100%;
+    max-height:auto;
+  }
+
+  .boxattributes{
+    height:800px;
+  }
+
+.box-set{
+  height:800px;
+
+}
+.box {
+    max-width: auto;
+    max-height: auto;
+    background:white;
+}
+
+  .box1 {
+    max-width:100%;
+    max-height:100%;
+    height:800px;
+    background:white;
+  }
+
+}
+
