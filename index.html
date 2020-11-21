@@ -20,6 +20,7 @@
 </head>
 <body>
   <header>
+<!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html" >Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +51,8 @@
       <main>
         <div class="box-set">
           <div class="box box1">
+<!-- iframe function connecting the .htmls in the visualization part through the name"window"-->
+<!--      The landing page is displayed inside the box-->
             <iframe src="Landing.html" frameborder=0 scrolling="no" width=100% height=100% name="window" id="window"></iframe>
           </div>
         </div>
@@ -59,11 +62,13 @@
           <div class="container">
             <div class="row no-row-gutters">
               <div class="column">
+ <!--     Maxtemp.html is displayed inside the box through use of an anchor select with a target of window-->
                 <a href="Maxtemp.html" target="window">
                   <img src="assets/images/Fig1.png" alt="Fig1.png" width=100% height=auto>
                 </a>
               </div>
               <div class="column">
+  <!--     Humidity.html is displayed inside the box through use of an anchor select with a target of window-->
                 <a href="Humidity.html" target="window">
                   <img src="assets/images/Fig2.png" alt="Fig2.png" width=100% height=auto>
                 </a>
@@ -71,11 +76,13 @@
             </div>
             <div class="row no-row-gutters">
               <div class="column">
+  <!--     Cloudiness.html is displayed inside the box through use of an anchor select with a target of window-->
                 <a href="Cloudiness.html" target="window">
                   <img src="assets/images/Fig3.png" alt="Fig3.png" width=100% height=auto>
                 </a>
               </div>
               <div class="column">
+  <!--     Windspeed.html is displayed inside the box through use of an anchor select with a target of window-->
                 <a href="Windspeed.html" target="window">
                  <img src="assets/images/Fig4.png" alt="Fig4.png" width=100% height=auto>
                 </a>
